@@ -7,12 +7,12 @@ export default function Header() {
             <div className="w-1/3"></div>
 
             <div className="w-1/3 font-bold text-3xl text-white cursor-pointer flex align-center justify-center">
-                <a href="">Morro Africa</a>
+                <a href="/">Morro Africa</a>
             </div>
 
             <div className="w-1/3 flex align-center justify-center">
                 <Button >
-                    <a className="flex align-center justify-center" href="">História do morro da africa</a>
+                    <a className="flex align-center justify-center" href="/historia">História do morro da africa</a>
                 </Button>
             </div>
         </div>

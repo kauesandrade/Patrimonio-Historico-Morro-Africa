@@ -19,7 +19,9 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={inter.className}>
         <Header></Header>
-        {children}
+        <main className="m-8 flex">
+          {children}
+        </main>
       </body>
     </html>
   );
