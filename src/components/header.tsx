@@ -11,8 +11,8 @@ export default function Header() {
             </div>
 
             <div className="w-1/3 flex align-center justify-center">
-                <Button >
-                    <a className="flex align-center justify-center" href="/historia">História do morro da africa</a>
+                <Button>
+                    <a className="flex align-center justify-center" href="/historia">📖História do morro da africa</a>
                 </Button>
             </div>
         </div>
