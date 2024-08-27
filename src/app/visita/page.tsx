@@ -1,4 +1,5 @@
 import CardInfo from "@/components/cardInfo";
+import CardText from "@/components/cardText";
 import SectionCard from "@/components/sectionCard";
 import { info } from "console";
 
@@ -61,9 +62,7 @@ export default function Visita() {
                 <img className="w-full object-cover h-auto border-0 rounded-sm" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCo2KEbK1D_mfuaRtULvTNKq-r-bRyVAfa_A&s" alt="" />
             </div>
             <div className="flex flex-col gap-8">
-                <p className="">
-                    O projeto veio demonstrar uma cultura que sofreu com ataques a sua história, tentando apagar suas raízes. O canto do hino veio como maneira pra demonstrar um pouco dessa cultura tão sofrida, a fim de reviver e apresentar as formas de luta e resistência africana contra o racismo estrutural preso à sociedade.
-                </p>
+                <CardText texto="O projeto veio demonstrar uma cultura que sofreu com ataques a sua história, tentando apagar suas raízes. O canto do hino veio como maneira pra demonstrar um pouco dessa cultura tão sofrida, a fim de reviver e apresentar as formas de luta e resistência africana contra o racismo estrutural preso à sociedade."></CardText>
                 <SectionCard tituloSection={brincadeiras.tituloSection} cards={brincadeiras.cards} />
                 <p>
                     As brincadeiras africanas apresentadas foram adaptadas aos materiais e o terreno do local. Elas demonstram a simplicidade e a criatividade dos povos africanos por meio de uma interação divertida entre as pessoas.
