@@ -1,6 +1,52 @@
-{
-    "informacoes":[
-        {
-        }
-    ]
-}
+[
+    {
+        "tituloSection": "Visitação",
+        "cards": [
+            {
+                "url": "visitacao",
+                "image": {
+                    "src": "",
+                    "acervo": "Acervo Pessoal"
+                },
+                "titulo": "Integrantes do grupo",
+                "descricao": "Fellipe Demarchi, Brenda Bauer, Vinícius Gonçalves, Kaue de Andrade, Leticia Mesch, Maria Böhmer / 2933",
+                "texto": "false"
+            },
+            {
+                "url": "visitacao",
+                "image": {
+                    "src": "",
+                    "acervo": "Acervo Pessoal"
+                },
+                "titulo": "Morro da África",
+                "descricao": "Visita feita dia 09/08/2024 no parque linear Via Verde com vistas para o Morro da Boa Vista com o objetivo de entender a importância histórica dos negros na cidade de Jaraguá do Sul, conforme propoê a Lei nº 11.645 de 10 de março de 2008 - que obriga o ensino de História da África e Indígena no currículo do Ensino Médio e Fundamental no Brasil.",
+                "texto": "false"
+            }
+        ]
+    },
+    {
+        "tituloSection": "História",
+        "cards": [
+            {
+                "url": "historia",
+                "image": {
+                    "src": "",
+                    "acervo": ""
+                },
+                "titulo": "",
+                "descricao": "",
+                "texto": "true"
+            },
+            {
+                "url": "historia",
+                "image": {
+                    "src": "",
+                    "acervo": "Acervo Pessoal"
+                },
+                "titulo": "Morro da África",
+                "descricao": "Visita feita dia 09/08/2024 no parque linear Via Verde com vistas para o Morro da Boa Vista com o objetivo de entender a importância histórica dos negros na cidade de Jaraguá do Sul, conforme propoê a Lei nº 11.645 de 10 de março de 2008 - que obriga o ensino de História da África e Indígena no currículo do Ensino Médio e Fundamental no Brasil.",
+                "sizeBig": true
+            }
+        ]
+    }
+]

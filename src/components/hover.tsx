@@ -9,7 +9,6 @@ export default function Hover() {
     return (
         <HoverCard>
             <HoverCardTrigger>
-                cu
             </HoverCardTrigger>
             <HoverCardContent>
                 <h1>cu</h1>

@@ -1,25 +1,27 @@
 'use client';
 
-import Hover from "./hover";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
+import { useRouter } from "next/navigation";
 
 export default function CardInfo(props: any) {
+    const router = useRouter();
+    console.log(props.card);
 
     return <>
-        <Card className={(props.sizeBig ? 'w-[40%]' : 'w-80')} >
-            <CardHeader>
-                <img className="h-56 object-contain border-0 rounded-2xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCo2KEbK1D_mfuaRtULvTNKq-r-bRyVAfa_A&s" alt="Morro da Africa"/> 
-                <CardDescription>Acervo pessoal</CardDescription>
-                <Hover></Hover>
-                {/* <CardDescription>{props.data.imagem.proprietario}</CardDescription> */}
-            </CardHeader>
-            <CardContent>
-                <CardTitle>dasdasd</CardTitle>
-                {/* <CardTitle>{props.data.title}</CardTitle> */}
-                <CardDescription 
-                className="text-wrap break-words text-ellipsis overflow-hidden w-full">ddddddddddd</CardDescription>
-            </CardContent>
-        </Card>
-        
+        <Card onClick={() => router.push("/" + props.card.url)} className="w-full md:w-[48%]" >
+                <CardHeader className="flex flex-col gap-1">
+                    <video  width="" height="240" autoPlay muted>
+                        <source src="https://videos.pexels.com/video-files/3150598/3150598-hd_1920_1080_25fps.mp4" type="video/mp4" />
+                    </video>
+                    {/* <img className="h-70 object-fit border-0 rounded-sm" src="public/assets/3150598-hd_1920_1080_25fps.mp4" alt="Morro da Africa" /> */}
+                    <CardDescription>{props.card.image.acervo}</CardDescription>
+                </CardHeader>
+                <CardContent className="flex flex-col gap-2">
+                    <CardTitle>{props.card.titulo}</CardTitle>
+                    <CardDescription
+                        className="text-wrap hover:text-balance overflow-hidden w-full h-full">{props.card.descricao}</CardDescription>
+                </CardContent>
+            </Card>
+
     </>
 }
