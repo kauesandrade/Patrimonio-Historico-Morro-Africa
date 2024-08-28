@@ -4,7 +4,8 @@
         "cards": [
             {
                 "url": "visitacao",
-                "image": {
+                "file": {
+                    "type": "img",
                     "src": "",
                     "acervo": "Acervo Pessoal"
                 },
@@ -14,7 +15,8 @@
             },
             {
                 "url": "visitacao",
-                "image": {
+                "file": {
+                    "type": "img",
                     "src": "",
                     "acervo": "Acervo Pessoal"
                 },
@@ -29,7 +31,8 @@
         "cards": [
             {
                 "url": "historia",
-                "image": {
+                "file": {
+                    "type": "img",
                     "src": "",
                     "acervo": ""
                 },
@@ -39,7 +42,8 @@
             },
             {
                 "url": "historia",
-                "image": {
+                "file": {
+                    "type": "img",
                     "src": "",
                     "acervo": "Acervo Pessoal"
                 },

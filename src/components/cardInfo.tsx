@@ -10,16 +10,17 @@ export default function CardInfo(props: any) {
     return <>
         <Card onClick={() => router.push("/" + props.card.url)} className="w-full md:w-[48%]" >
                 <CardHeader className="flex flex-col gap-1">
-                    <video  width="" height="240" autoPlay muted>
-                        <source src="https://videos.pexels.com/video-files/3150598/3150598-hd_1920_1080_25fps.mp4" type="video/mp4" />
-                    </video>
-                    {/* <img className="h-70 object-fit border-0 rounded-sm" src="public/assets/3150598-hd_1920_1080_25fps.mp4" alt="Morro da Africa" /> */}
-                    <CardDescription>{props.card.image.acervo}</CardDescription>
+                    {
+                        props.card.file.type == "img" ? 
+                        <img className="w-full object-cover h-48" src={props.card.file.url} alt="" /> :
+                        <video className="w-full object-cover h-48" src={props.card.file.url} autoPlay loop muted></video>
+                    }
+                    <CardDescription>{props.card.file.acervo}</CardDescription>
                 </CardHeader>
                 <CardContent className="flex flex-col gap-2">
                     <CardTitle>{props.card.titulo}</CardTitle>
                     <CardDescription
-                        className="text-wrap hover:text-balance overflow-hidden w-full h-full">{props.card.descricao}</CardDescription>
+                        className="text-wrap text-justify hover:text-balance overflow-hidden w-full h-full">{props.card.descricao}</CardDescription>
                 </CardContent>
             </Card>
 

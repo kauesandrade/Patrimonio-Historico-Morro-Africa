@@ -10,6 +10,11 @@ const config = {
 	],
   prefix: "",
   theme: {
+    fontFamily: {
+      'sans': ['ui-sans-serif', 'system-ui'],
+      'inter': ['Inter', 'ui-sans-serif', 'system-ui'],
+      'fredoka': ["Fredoka", "sans-serif"],
+    },
     container: {
       center: true,
       padding: "2rem",

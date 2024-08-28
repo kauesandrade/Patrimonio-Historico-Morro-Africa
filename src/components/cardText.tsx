@@ -6,7 +6,7 @@ export default function CardText(props:any){
 
     return<>
     <Card className="p-6">
-        <CardDescription>
+        <CardDescription className="text-justify text-lg">
             {props.texto}
         </CardDescription>
     </Card>
