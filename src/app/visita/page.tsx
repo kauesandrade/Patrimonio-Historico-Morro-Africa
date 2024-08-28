@@ -34,7 +34,7 @@ export default function Visita() {
                 "url": "visitacao",
                 "file": {
                     "type": "img",
-                    "src": "",
+                    "src": "assets/images/pularCorda.jpg",
                     "acervo": "Acervo Pessoal"
                 },
                 "titulo": "Circuito de pedra, papel e tesoura",
@@ -44,8 +44,8 @@ export default function Visita() {
             {
                 "url": "visitacao",
                 "file": {
-                    "type": "img",
-                    "src": "",
+                    "type": "mp4",
+                    "src": "/assets/images/terraMar.jpg",
                     "acervo": "Acervo Pessoal"
                 },
                 "titulo": "Mar Terra",
