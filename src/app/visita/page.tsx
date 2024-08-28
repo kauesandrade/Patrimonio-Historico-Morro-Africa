@@ -9,7 +9,7 @@ export default function Visita() {
         "tituloSection": "Brincadeiras Africanas",
         "cards": [
             {
-                "url": "visitacao",
+                "url": "",
                 "file": {
                     "type": "img",
                     "src": "",
@@ -20,10 +20,10 @@ export default function Visita() {
                 "texto": "false"
             },
             {
-                "url": "visitacao",
+                "url": "",
                 "file": {
                     "type": "img",
-                    "src": "",
+                    "src": "/assets/images/pedraPapelTesoura.jpg",
                     "acervo": "Acervo Pessoal"
                 },
                 "titulo": "Pedrinha",
@@ -31,10 +31,10 @@ export default function Visita() {
                 "texto": "false"
             },
             {
-                "url": "visitacao",
+                "url": "",
                 "file": {
                     "type": "img",
-                    "src": "assets/images/pularCorda.jpg",
+                    "src": "/assets/images/pedraPapelTesoura.jpg",
                     "acervo": "Acervo Pessoal"
                 },
                 "titulo": "Circuito de pedra, papel e tesoura",
@@ -42,7 +42,7 @@ export default function Visita() {
                 "texto": "false"
             },
             {
-                "url": "visitacao",
+                "url": "",
                 "file": {
                     "type": "mp4",
                     "src": "/assets/images/terraMar.jpg",
@@ -53,13 +53,13 @@ export default function Visita() {
                 "texto": "false"
             },
             {
-                "url": "visitacao",
+                "url": "",
                 "file": {
-                    "type": "img",
-                    "src": "",
+                    "type": "mp4",
+                    "src": "/assets/images/pularCorda.mp4",
                     "acervo": "Acervo Pessoal"
                 },
-                "titulo": "?",
+                "titulo": "Pular Corda",
                 "descricao": "",
                 "texto": "false"
             }
@@ -82,8 +82,8 @@ export default function Visita() {
             <div className="flex flex-col gap-8">
                 <SectionCard tituloSection={brincadeiras.tituloSection} cards={brincadeiras.cards} />
                 <CardText
-                    texto=" As brincadeiras africanas apresentadas foram adaptadas aos materiais e o terreno do local. Elas demonstram a simplicidade e a criatividade dos povos africanos por meio de uma interação divertida entre as pessoas.
-                    As brincadeiras eram ligadas a atenção e desenvolvimento de raciocínio rápido. Por exemplo, a brincadeira que envolvia o pedra papel tesoura precisava de atenção para correr até o adversário assim que seu colega de equipe era derrotado. Mar Terra e o pular corda precisavam de condicionamento físico e agilidade para compreender e analisar a situação a fim de não perder.">
+                    texto="As brincadeiras africanas apresentadas foram adaptadas aos materiais e ao terreno do local. Elas demonstram a simplicidade e a criatividade dos povos africanos por meio de uma interação divertida entre as pessoas. 
+As brincadeiras eram ligadas a atenção, desenvolvimento físico e raciocínio rápido. Por exemplo, a brincadeira que envolvia o pedra papel tesoura precisava de atenção para correr até o adversário assim que seu colega de equipe era derrotado. Mar Terra e o pular corda precisavam de condicionamento físico e agilidade para compreender e analisar a situação a fim de não perder. O cabo de guerra por sua vez, necessita de força e equilíbrio. Porém a brincadeira de acertar em qual mão estava a pedra é puramente sorte.">
                 </CardText>
             </div>
 

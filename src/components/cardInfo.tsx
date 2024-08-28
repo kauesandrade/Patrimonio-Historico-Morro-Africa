@@ -7,8 +7,8 @@ export default function CardInfo(props: any) {
     const router = useRouter();
 
     return <>
-        <Card onClick={() => router.push("/" + props.card.url)} className="w-full md:w-[48%]" >
-            <CardHeader className="flex flex-col gap-1">
+        <Card onClick={() => props.card.url != "" ? router.push("/" + props.card.url) : null} className="w-full md:w-[48%]" >
+            <CardHeader className="flex flex-col gap-1 pb-3">
                 {
                     props.card.file.type == "img" ?
                         <img className="w-full object-cover h-48" src={props.card.file.url} alt="" /> :
@@ -19,7 +19,7 @@ export default function CardInfo(props: any) {
                 <CardDescription>{props.card.file.acervo}</CardDescription>
             </CardHeader>
             <CardContent className="flex flex-col gap-2">
-                <CardTitle>{props.card.titulo}</CardTitle>
+                <CardTitle className="text-justify">{props.card.titulo}</CardTitle>
                 <CardDescription
                     className="text-wrap text-justify hover:text-balance overflow-hidden w-full h-full">{props.card.descricao}</CardDescription>
             </CardContent>

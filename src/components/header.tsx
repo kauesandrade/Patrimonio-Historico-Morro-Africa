@@ -13,7 +13,7 @@ export default function Header() {
             <div className="w-1/3 flex items-center justify-end gap-10">
                     <a className="flex items-center justify-center text-gray-50 gap-1 hover:border-b-2" href="/historia">📖 História</a>
                     <a className="flex items-center justify-center text-gray-50 gap-1 hover:border-b-2" href="/visita">🔍 Visita</a>
-                    <a className="flex items-center justify-center text-gray-50 gap-1 hover:border-b-2" href="/integrantes">👨‍🎓 Intgrates</a>
+                    <a className="flex items-center justify-center text-gray-50 gap-1 hover:border-b-2" href="/integrantes">👨‍🎓 Integrantes</a>
             </div>
         </div>
     );
