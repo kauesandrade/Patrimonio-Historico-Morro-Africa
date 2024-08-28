@@ -1,26 +1,29 @@
+import CardImgText from "@/components/cardImgText";
+import CardText from "@/components/cardText";
+import SectionCard from "@/components/sectionCard";
+
 export default function Historia(){
-    return<>
-        <main className="w-[60%] mx-auto">
+    return <>
+        <main className="flex flex-col gap-5">
             <div className="flex justify-center py-8">
-                <h1 className="text-4xl font-bold">História do Morro da Africa (Morro da boa Vista)</h1>
+                <h1 className="text-4xl font-bold text-justify">
+                    Visitação com explicação sobre a cultura e valorização do protagonismo negro
+                </h1>
             </div>
-            <div className="flex justify-center w-full">
-                <img className="w-full object-cover h-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCo2KEbK1D_mfuaRtULvTNKq-r-bRyVAfa_A&s" alt="" />
-            </div>
-            <div className="flex flex-col gap-8">
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices velit et nisi viverra aliquet. Aliquam ut varius neque, a vestibulum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras sed quam mollis, elementum libero eu, vehicula odio. Mauris facilisis elit at vehicula venenatis. Donec vitae ornare ipsum. Ut non metus id neque condimentum dignissim. Duis ullamcorper orci eu arcu mattis, eu iaculis quam maximus. Proin ultrices finibus enim sed rhoncus. Proin consectetur vel leo mattis dapibus.
-                </p>
-                <p>
-                In iaculis sit amet est non dapibus. Cras nec odio placerat, facilisis dolor sit amet, interdum dui. Sed ultrices eros in justo sodales, lacinia posuere augue fermentum. Aliquam viverra mattis ipsum, a finibus neque imperdiet ut. Ut sit amet felis porttitor, iaculis turpis nec, tempus magna. Suspendisse vel tincidunt enim. Aliquam libero lacus, sodales eget augue sit amet, dignissim porta lacus. Quisque condimentum purus justo, eget suscipit quam pulvinar sit amet. Suspendisse quis facilisis ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc consectetur eget dolor eget volutpat. Phasellus pulvinar mauris sed diam ornare, eget commodo ligula mollis. Etiam ut accumsan augue, sed vulputate ex. Vestibulum vitae varius mauris, nec sodales velit. Cras at laoreet tellus. Integer vitae vestibulum odio.
-                </p>
-                <p>
-                Vivamus et leo pellentesque, sollicitudin elit sit amet, sagittis lorem. Fusce pharetra aliquet lorem, vel tristique quam ultrices et. Fusce volutpat nisl risus, eget mattis turpis congue vel. Nam mollis augue sed risus porttitor lobortis. Suspendisse ac metus non sapien porta congue. Nulla ac eleifend nisi. Donec nec urna eros. Aliquam at dapibus augue. Pellentesque id porttitor neque, ac mattis dui. Sed ipsum tellus, egestas ac risus sit amet, venenatis cursus enim. Nulla ac gravida nibh. Nam eget venenatis dui, vitae fringilla nisi. In et erat metus. Praesent imperdiet et purus eget sodales. Phasellus maximus, magna vitae dignissim lacinia, massa ex suscipit orci, id rhoncus velit nunc vitae quam. Nunc sollicitudin ante non tortor imperdiet, non hendrerit orci cursus.
-                </p>
-                <p>
-                Donec lorem orci, auctor sed consectetur quis, aliquet vitae ipsum. Suspendisse euismod ultricies rutrum. Pellentesque sed mauris vel purus convallis iaculis vel interdum dui. Etiam dictum scelerisque leo porta porttitor. Sed cursus neque vel placerat auctor. Aliquam et auctor nisl. Donec facilisis hendrerit massa a commodo. Nunc a maximus ante, vitae euismod nisi.
-                </p>
-            </div>
+            <CardImgText
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCo2KEbK1D_mfuaRtULvTNKq-r-bRyVAfa_A&s"
+                acervo="Acervo Pessoal"
+                texto="O projeto veio demonstrar uma cultura que sofreu com ataques a sua história, tentando apagar suas raízes. O canto do hino veio como maneira para demonstrar um pouco dessa cultura tão sofrida, a fim de reviver e apresentar as formas de luta e resistência africana contra o racismo estrutural preso à sociedade.">
+            </CardImgText>
+
+            {/* <div className="flex flex-col gap-8">
+                <SectionCard tituloSection={brincadeiras.tituloSection} cards={brincadeiras.cards} />
+                <CardText
+                    texto="As brincadeiras africanas apresentadas foram adaptadas aos materiais e ao terreno do local. Elas demonstram a simplicidade e a criatividade dos povos africanos por meio de uma interação divertida entre as pessoas. 
+As brincadeiras eram ligadas a atenção, desenvolvimento físico e raciocínio rápido. Por exemplo, a brincadeira que envolvia o pedra papel tesoura precisava de atenção para correr até o adversário assim que seu colega de equipe era derrotado. Mar Terra e o pular corda precisavam de condicionamento físico e agilidade para compreender e analisar a situação a fim de não perder. O cabo de guerra por sua vez, necessita de força e equilíbrio. Porém a brincadeira de acertar em qual mão estava a pedra é puramente sorte.">
+                </CardText>
+            </div> */}
+
         </main>
     </>
 }
