@@ -15,8 +15,8 @@ export default function Visita() {
                     "src": "",
                     "acervo": "Acervo Pessoal"
                 },
-                "titulo": "Integrantes do grupo",
-                "descricao": "Fellipe Demarchi, Brenda Bauer, Vinícius Gonçalves, Kaue de Andrade, Leticia Mesch, Maria Böhmer / 2933",
+                "titulo": "Cabo de Guerra humano",
+                "descricao": "O cabo de guerra é uma brincadeira que envolve força e estratégia. A brincadeira era feita com duas equipes que ao invés puxam uma corda para lados opostos eles se juntavam e faziam uma corda humana. A equipe que conseguisse puxar o outro time para o seu lado vence a brincadeira.",
                 "texto": "false"
             },
             {
@@ -26,8 +26,8 @@ export default function Visita() {
                     "src": "",
                     "acervo": "Acervo Pessoal"
                 },
-                "titulo": "Morro da África",
-                "descricao": "Visita feita dia 09/08/2024 no parque linear Via Verde com vistas para o Morro da Boa Vista com o objetivo de entender a importância histórica dos negros na cidade de Jaraguá do Sul, conforme propoê a Lei nº 11.645 de 10 de março de 2008 - que obriga o ensino de História da África e Indígena no currículo do Ensino Médio e Fundamental no Brasil.",
+                "titulo": "Pedrinha",
+                "descricao": "",
                 "texto": "false"
             },
             {
@@ -37,8 +37,8 @@ export default function Visita() {
                     "src": "",
                     "acervo": "Acervo Pessoal"
                 },
-                "titulo": "Morro da África",
-                "descricao": "Visita feita dia 09/08/2024 no parque linear Via Verde com vistas para o Morro da Boa Vista com o objetivo de entender a importância histórica dos negros na cidade de Jaraguá do Sul, conforme propoê a Lei nº 11.645 de 10 de março de 2008 - que obriga o ensino de História da África e Indígena no currículo do Ensino Médio e Fundamental no Brasil.",
+                "titulo": "Circuito de pedra, papel e tesoura",
+                "descricao": "",
                 "texto": "false"
             },
             {
@@ -48,8 +48,19 @@ export default function Visita() {
                     "src": "",
                     "acervo": "Acervo Pessoal"
                 },
-                "titulo": "Morro da África",
-                "descricao": "Visita feita dia 09/08/2024 no parque linear Via Verde com vistas para o Morro da Boa Vista com o objetivo de entender a importância histórica dos negros na cidade de Jaraguá do Sul, conforme propoê a Lei nº 11.645 de 10 de março de 2008 - que obriga o ensino de História da África e Indígena no currículo do Ensino Médio e Fundamental no Brasil.",
+                "titulo": "Mar Terra",
+                "descricao": "",
+                "texto": "false"
+            },
+            {
+                "url": "visitacao",
+                "file": {
+                    "type": "img",
+                    "src": "",
+                    "acervo": "Acervo Pessoal"
+                },
+                "titulo": "?",
+                "descricao": "",
                 "texto": "false"
             }
         ]
@@ -65,7 +76,7 @@ export default function Visita() {
             </div>
             <CardImgText
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCo2KEbK1D_mfuaRtULvTNKq-r-bRyVAfa_A&s"
-                texto="O projeto veio demonstrar uma cultura que sofreu com ataques a sua história, tentando apagar suas raízes. O canto do hino veio como maneira pra demonstrar um pouco dessa cultura tão sofrida, a fim de reviver e apresentar as formas de luta e resistência africana contra o racismo estrutural preso à sociedade.">
+                texto="O projeto veio demonstrar uma cultura que sofreu com ataques a sua história, tentando apagar suas raízes. O canto do hino veio como maneira para demonstrar um pouco dessa cultura tão sofrida, a fim de reviver e apresentar as formas de luta e resistência africana contra o racismo estrutural preso à sociedade.">
             </CardImgText>
 
             <div className="flex flex-col gap-8">

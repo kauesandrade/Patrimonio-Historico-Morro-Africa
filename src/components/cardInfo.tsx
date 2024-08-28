@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 
 export default function CardInfo(props: any) {
     const router = useRouter();
-    console.log(props.card);
 
     return <>
         <Card onClick={() => router.push("/" + props.card.url)} className="w-full md:w-[48%]" >
