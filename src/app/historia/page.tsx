@@ -7,7 +7,7 @@ export default function Historia() {
     return <>
         <main className="flex flex-col gap-5">
             <div className="flex justify-center py-8">
-                <h1 className="text-4xl font-bold text-justify">
+                <h1 className="text-xl md:text-4xl font-bold text-justify">
                     A história do Morro da África e imigração de negros e pardos em Jaraguá do Sul.
                 </h1>
             </div>
@@ -33,6 +33,8 @@ export default function Historia() {
                     </CardContent>
                 </Card>
             </div>
+
+
 
             {/* <div className="flex flex-col gap-8">
                 <SectionCard tituloSection={brincadeiras.tituloSection} cards={brincadeiras.cards} />

@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className='bg-slate-200'>
         <Header></Header>
-        <main className="m-8 flex w-[60%] mx-auto">
+        <main className="flex m-8 mx-auto w-[90%] justify-center items-center md:w-[70%]">
           {children}
         </main>
       </body>

@@ -21,7 +21,7 @@ export default function CardInfo(props: any) {
             <CardContent className="flex flex-col gap-2">
                 <CardTitle className="text-justify">{props.card.titulo}</CardTitle>
                 <CardDescription
-                    className="text-wrap text-justify hover:text-balance overflow-hidden w-full h-full">{props.card.descricao}</CardDescription>
+                    className="text-wrap text-justify">{props.card.descricao}</CardDescription>
             </CardContent>
         </Card>
 
