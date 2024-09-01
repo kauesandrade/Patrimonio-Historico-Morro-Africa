@@ -26,7 +26,7 @@ export default function Visita() {
                 </div>
 
                 <CardImgText
-                    src="/assets/imagens/morro1.jpg"
+                    src="/assets/imagens/morro1.jpeg"
                     acervo="Acervo Pessoal"
                     texto="Visita feita dia 09/08/2024 no parque linear Via Verde com vistas para o Morro da Boa Vista com o objetivo de entender a importância histórica dos negros na cidade de Jaraguá do Sul, conforme propoê a Lei nº 11.645 de 10 de março de 2008 - que obriga o ensino de História da África e Indígena no currículo do Ensino Médio e Fundamental no Brasil.">
                 </CardImgText>
