@@ -6,8 +6,6 @@ import { useRouter } from "next/navigation";
 export default function CardInfo(props: any) {
     const router = useRouter();
 
-    console.log(props);
-
     return <>
         <Card className="w-full md:w-[48%]" >
             <CardHeader className="flex flex-col gap-1 pb-3">
