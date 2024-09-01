@@ -14,9 +14,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+        <link rel="icon" href="/assets/montanhaIcon.png" />
+      </head>
       <body className='bg-slate-200'>
         <Header></Header>
-        <main className="flex m-8 mx-auto w-[90%] justify-center items-center md:w-[70%]">
+        <main>
           {children}
         </main>
       </body>

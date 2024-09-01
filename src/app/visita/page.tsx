@@ -6,155 +6,22 @@ import SectionCard from "@/components/sectionCard";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useRouter } from "next/navigation";
 
+import informacoes from "../../../public/json/informacoes.json";
+
 export default function Visita() {
 
     const router = useRouter();
 
-    const info = [
-        {
-            "tituloSection": "",
-            "cards": [
-                {
-                    "url": "",
-                    "file": {
-                        "type": "mov",
-                        "src": "https://www.youtube.com/embed/H43t4xIn6H0",
-                        "acervo": "Acervo Pessoal",
-                        "acervoUrl": "",
-                        "controles": "true"
-                    },
-                    "titulo": "Palestra Luiz Fernando Olegar",
-                    "descricao": "O vídeo é um recorte da palestra dada pelo presidente do movimento MOCONEVI Profe. Luis Fernando Olegar. Ele fala sobre a importância de se conhecer a história e a cultura africana e sobre o combate ao racismo, valorização da cultura afro em Jaraguá do Sul.",
-                    "texto": "false"
-                },
-                {
-                    "url": "",
-                    "file": {
-                        "type": "mov",
-                        "src": "/assets/imagens/cancaoHino.movasdasd",
-                        "acervo": "Acervo Pessoal",
-                        "acervoUrl": "",
-                        "controles": "true"
-                    },
-                    "titulo": "Canção contra o racismo",
-                    "descricao": "O vídeo é um recorte da canção que é utilizada pelos paises africanos na luta contra o racismo. A canção foi cantada por um dos integrantes do movimento MOCONEVI.",
-                    "texto": "false"
-                }
-            ]
-        },
-        {
-            "tituloSection": "Brincadeiras Africanas",
-            "cards": [
-                {
-                    "url": "",
-                    "file": {
-                        "type": "img",
-                        "src": "/assets/imagens/caboGuerra3.jpeg",
-                        "acervo": "Acervo Pessoal",
-                        "acervoUrl": "",
-                        "controles": "false"
-                    },
-                    "titulo": "Cabo de Guerra humano",
-                    "descricao": "O cabo de guerra é uma brincadeira que envolve força e estratégia. A brincadeira era feita com duas equipes que ao invés puxam uma corda para lados opostos eles se juntavam e faziam uma corda humana. A equipe que conseguisse puxar o outro time para o seu lado vence a brincadeira.",
-                    "texto": "false"
-                },
-                {
-                    "url": "",
-                    "file": {
-                        "type": "img",
-                        "src": "/assets/imagens/pedrinha1.jpeg",
-                        "acervo": "Acervo Pessoal",
-                        "acervoUrl": "",
-                        "controles": "false"
-                    },
-                    "titulo": "Pedrinha",
-                    "descricao": "Uma fila de 4 pessoas escondia uma pedra em uma de suas mãos, o adversário teria que adivinhar em qual mão estava, podendo passar para o próximo e continuar assim até passar pelas 4 pessoas, sempre que se erra, volta para o início.",
-                    "texto": "false"
-                },
-                {
-                    "url": "",
-                    "file": {
-                        "type": "img",
-                        "src": "/assets/imagens/pedraPapelTesoura.jpg",
-                        "acervo": "Acervo Pessoal",
-                        "acervoUrl": "",
-                        "controles": "false"
-                    },
-                    "titulo": "Circuito de pedra, papel e tesoura",
-                    "descricao": "Jogo em equipe em que os participantes tinham que correr para uma corda e jogar pedra, papel e tesoura com o adversário, quem ganhasse continuava correndo, quem perdesse voltava para o final da fila. Ganha um ponto quem cruzar todo o circuito sem perder no Pedra,Papel e Tesoura para os adversários.",
-                    "texto": "false"
-                },
-                {
-                    "url": "",
-                    "file": {
-                        "type": "mp4",
-                        "src": "/assets/imagens/terraMar.mp4",
-                        "acervo": "Acervo Pessoal",
-                        "acervoUrl": "",
-                        "controles": "false"
-                    },
-                    "titulo": "Mar Terra",
-                    "descricao": "uma versão adaptada do famoso vivo-morto. Quando o comandante da brincadeira grita 'mar' ou 'terra', os participantes teriam que trocar de lado na corda.",
-                    "texto": "false"
-                },
-                {
-                    "url": "",
-                    "file": {
-                        "type": "mp4",
-                        "src": "/assets/imagens/pulaCorda.mp4",
-                        "acervo": "Acervo Pessoal",
-                        "acervoUrl": "",
-                        "controles": "false"
-                    },
-                    "titulo": "Pular Corda",
-                    "descricao": "Uma pessoa  fica no meio de um círculo envolto de pessoas enquanto girava uma corda, os participantes no círculo teriam que pular a corda para não serem eliminados.",
-                    "texto": "false"
-                }
-            ]
-        },
-        {
-            "tituloSection": "Comida Africana",
-            "cards": [
-                {
-                    "url": "",
-                    "file": {
-                        "type": "img",
-                        "src": "https://s2-receitas.glbimg.com/mBKC_y0xdSFApyR-B8Ll2N0jQg4=/0x0:1000x678/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/C/e/BMl3G2R6GSykubWOLuKg/acaraje.jpg",
-                        "acervo": "Acervo Globo Receitas",
-                        "acervoUrl": "https://receitas.globo.com/blog/dicas-e-tecnicas/acaraje-palavra-tem-origem-africana-entenda-o-significado.ghtml",
-                        "controles": "false"
-                    },
-                    "titulo": "As origens africanas do acarajé",
-                    "descricao": "O acarajé, em sua forma original, é um patrimônio cultural imaterial do Brasil e tem suas origens nas tradições culinárias da África Ocidental, mais precisamente nos países que hoje compõem a Nigéria e o Benin. Era preparado pelas mulheres iorubás e jejes, que utilizavam feijão fradinho moído, azeite de dendê e sal para criar uma massa que era frita em azeite quente.",
-                    "texto": "false"
-                },
-                {
-                    "url": "",
-                    "file": {
-                        "type": "img",
-                        "src": "https://brmais.net/storage/posts/June2021/Acaraj%C3%A92%20Manuela.jpg",
-                        "acervo": "Acervo Blog BR Mais",
-                        "acervoUrl": "https://www.brmais.net/blog/o-sagrado-acaraje-do-mundo-para-a-bahia-e-vice-versa",
-                        "controles": "false"
-                    },
-                    "titulo": "A chegada ao Brasil e a influência da cultura afro-brasileira",
-                    "descricao": "Com a chegada dos africanos escravizados ao Brasil, o acarajé se tornou um alimento fundamental na dieta desses povos. As mulheres africanas, que mantinham vivas suas tradições culinárias, adaptaram a receita aos ingredientes disponíveis no novo território, incorporando elementos da culinária indígena e portuguesa.",
-                    "texto": "false"
-                }
-            ]
-        }
-
-    ]
-
+    const info = informacoes;
 
     return <>
-        <main className="flex flex-col gap-5">
+        <main className="flex flex-col gap-5 m-8 mx-auto w-[90%] justify-center items-center md:w-[70%]">
 
             <div className="flex flex-col gap-8">
 
                 <div className="flex justify-center py-8">
                     <h1 className="text-xl md:text-4xl font-bold text-justify">
-                        Visitação com explicação sobre a cultura e valorização do protagonismo negro na cidade de Jaraguá do Sul
+                        Visitação com explicação sobre a cultura e valorização do protagonismo negro na cidade de Jaraguá do Sul.
                     </h1>
                 </div>
 
@@ -170,7 +37,7 @@ export default function Visita() {
                             <Card className="w-full md:w-[48%]" key={index}>
                                 <CardHeader className="flex flex-col gap-1 pb-3">
 
-                                    <iframe className="w-full object-cover min-h-60 max-h-96" src={card.file.src}></iframe>
+                                    <iframe className="w-full object-cover min-h-60 max-h-96" src={card.file.src} frameBorder="0" allowFullScreen></iframe>
 
                                     <CardDescription>
                                         <a>{card.file.acervo}</a>

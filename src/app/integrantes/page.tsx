@@ -8,13 +8,13 @@ export default function Integrantes() {
 
     return <> 
     
-    <main className="flex flex-col gap-5">
+    <main className="flex flex-col gap-5 m-8 mx-auto w-[90%] justify-center items-center md:w-[70%]">
 
-            <div className="flex flex-col gap-8">
+            <div className="flex flex-col w-full gap-8">
 
                 <div className="flex justify-center py-8">
                     <h1 className="text-xl md:text-4xl font-bold text-justify">
-                        Integrantes do Projeto Morro África
+                        Integrantes do Projeto Rotas Africanas em Jaraguá do Sul.
                     </h1>
                 </div>
 

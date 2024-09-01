@@ -13,7 +13,7 @@ export default function cardImgText(props: any) {
                 <img className="w-full object-cover h-auto border-0 rounded-sm max-h-96" src={props.src} alt="" />
 
                 <CardDescription onClick={() => props.acervoUrl != "" ? router.push(props.acervoUrl) : null}>
-                    <a className={!props.acervoUrl ? "" : "cursor-pointer text-sky-600 border-b-2 border-sky-400/40"}>{props.acervo}</a>
+                    <a className={props.acervoUrl != "" ? "" : "cursor-pointer text-sky-600 underline"}>{props.acervo}</a>
                 </CardDescription>
 
                 {props.titulo &&

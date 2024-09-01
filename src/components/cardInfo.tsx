@@ -21,7 +21,7 @@ export default function CardInfo(props: any) {
                 }
 
                 <CardDescription onClick={() => props.card.file.acervoUrl != "" ? router.push(props.card.file.acervoUrl) : null}>
-                    <a className={props.card.file.acervoUrl == "" ? "" : "cursor-pointer text-sky-600 border-b-2 border-sky-400/40"}>{props.card.file.acervo}</a>
+                    <a className={props.card.file.acervoUrl == "" ? "" : "cursor-pointer text-sky-600 underline"}>{props.card.file.acervo}</a>
                 </CardDescription>
 
 
@@ -31,7 +31,7 @@ export default function CardInfo(props: any) {
                 <CardDescription className="text-wrap text-justify">{props.card.descricao}</CardDescription>
                 {props.card.url != "" &&
                     <CardDescription onClick={() => router.push("/" + props.card.url)}>
-                        <a className="text-wrap text-justify cursor-pointer text-sky-600 border-b-2 border-sky-400/40" href={"/" + props.card.url}>Saiba mais...</a>
+                        <a className="text-wrap text-justify cursor-pointer text-sky-600 underline" href={"/" + props.card.url}>Saiba mais...</a>
                     </CardDescription>
                 }
             </CardContent>
