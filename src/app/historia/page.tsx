@@ -52,7 +52,7 @@ export default function Historia() {
             <div className="flex flex-col gap-4 justify-center w-full">
                 <Card className="flex flex-col gap-4 p-6">
 
-                    <img className="w-full object-cover h-auto border-0 rounded-sm max-h-96" src="/assets/imagens/morro1.jpg" alt="" />
+                    <img className="w-full object-cover h-auto border-0 rounded-sm max-h-96" src="/assets/imagens/morro1.jpeg" alt="" />
 
                     <CardDescription>
                         <a>Acervo Pessoal</a>
